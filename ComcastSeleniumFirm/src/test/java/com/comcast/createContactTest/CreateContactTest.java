@@ -7,7 +7,11 @@ public class CreateContactTest {
 		@Test(groups="smokeTest")
 		public void createContactTest()
 		{
+			String BROWSER=System.getProperty("browser");
+			String URL=System.getProperty("url");
 			System.out.println("execute createContact");
+			System.out.println(BROWSER);
+			System.out.println(URL);
 		}
 		
 		
