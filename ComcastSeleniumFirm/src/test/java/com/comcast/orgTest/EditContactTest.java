@@ -20,6 +20,11 @@ public class EditContactTest {
 		{
 			System.out.println("edited");
 		}
+		@Test(groups="regionalTest")
+		public void editAndTest()
+		{
+			System.out.println("editedAd");
+		}
 
 	}
 
