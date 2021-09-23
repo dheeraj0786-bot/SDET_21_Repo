@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+    <groups>
+      <group name="regionalTest">
+        <method signature="CreateContactTest.createContactwithOrgTest()[pri:0, instance:com.comcast.createContactTest.CreateContactTest@1e965684]" name="createContactwithOrgTest" class="com.comcast.createContactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.deleteContactTest()[pri:0, instance:com.comcast.createContactTest.CreateContactTest@1e965684]" name="deleteContactTest" class="com.comcast.createContactTest.CreateContactTest"/>
+        <method signature="EditContactTest.editTest()[pri:0, instance:com.comcast.orgTest.EditContactTest@27a8c74e]" name="editTest" class="com.comcast.orgTest.EditContactTest"/>
+        <method signature="EditContactTest.saveChangeTest()[pri:0, instance:com.comcast.orgTest.EditContactTest@27a8c74e]" name="saveChangeTest" class="com.comcast.orgTest.EditContactTest"/>
+      </group> <!-- regionalTest -->
+    </groups>
+    <test name="Test" duration-ms="117" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+      <class name="com.comcast.createContactTest.CreateContactTest">
+        <test-method status="PASS" signature="createContactwithOrgTest()[pri:0, instance:com.comcast.createContactTest.CreateContactTest@1e965684]" name="createContactwithOrgTest" duration-ms="15" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactwithOrgTest -->
+        <test-method status="PASS" signature="deleteContactTest()[pri:0, instance:com.comcast.createContactTest.CreateContactTest@1e965684]" name="deleteContactTest" duration-ms="2" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactTest -->
+      </class> <!-- com.comcast.createContactTest.CreateContactTest -->
+      <class name="com.comcast.orgTest.EditContactTest">
+        <test-method status="PASS" signature="editTest()[pri:0, instance:com.comcast.orgTest.EditContactTest@27a8c74e]" name="editTest" duration-ms="2" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTest -->
+        <test-method status="PASS" signature="saveChangeTest()[pri:0, instance:com.comcast.orgTest.EditContactTest@27a8c74e]" name="saveChangeTest" duration-ms="3" started-at="2021-09-22T14:26:02 IST" finished-at="2021-09-22T14:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveChangeTest -->
+      </class> <!-- com.comcast.orgTest.EditContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
